@@ -34,7 +34,7 @@ class GuardicoreParserBot(Bot):
                 event.add('classification.type', feed_type)
 
                 regex = re.compile('\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}')
-                if !regex.match(feed):
+                if not regex.match(feed):
                     event.add('source.fqdn', feed)
                 else:
                     event.add('source.ip', feed)

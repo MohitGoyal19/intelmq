@@ -51,8 +51,8 @@ EVENT1 = {"feed.name": "Guardicore Top Attackers IP Feed",
           "time.observation": "2019-03-26T00:00:00+00:00",
           "__type": "Event",
           "classification.type": "malware",
-          "source.ip": "157.230.189.193",
-          "raw": "MTU3LjIzMC4xODkuMTkz"
+          'raw': 'ODEuNC4xMDYuNjM=',
+          'source.ip': '81.4.106.63'
           }
 
 EVENT2 = {"feed.name": "Guardicore Malicious Domains Feed",
@@ -71,8 +71,8 @@ EVENT3 = {"feed.name": "Guardicore Botnet IP Feed",
           "time.observation": "2019-03-26T00:00:00+00:00",
           "__type": "Event",
           "classification.type": "c&c",
-          "source.ip": "60.2.251.85",
-          "raw": "NjAuMi4yNTEuODU="
+          'raw': 'MzcuNTkuNDQuOTM=',
+          'source.ip': '37.59.44.93'
           }
 
 EVENT4 = {"feed.name": "Guardicore Scanner IP Feed",
@@ -81,8 +81,8 @@ EVENT4 = {"feed.name": "Guardicore Scanner IP Feed",
           "time.observation": "2019-03-26T00:00:00+00:00",
           "__type": "Event",
           "classification.type": "scanner",
-          "source.ip": "141.98.81.100",
-          "raw": "MTQxLjk4LjgxLjEwMA=="
+          'raw': 'NTEuMTQwLjIwMy4yMjg=',
+          'source.ip': '51.140.203.228'
           }
 
 
@@ -114,4 +114,4 @@ class TestGuardicoreParserBot(test.BotTestCase, unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main
+    unittest.main()
